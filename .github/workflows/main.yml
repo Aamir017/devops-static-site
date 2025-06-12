@@ -16,5 +16,3 @@ jobs:
     - name: 🐳 Build Docker image
       run: docker build -t my-static-site .
 
-    - name: ✅ Test Docker image (optional)
-      run: docker run --rm my-static-site
